@@ -1,12 +1,11 @@
 import {Component, Output, EventEmitter} from "@angular/core";
-import {Ng2BalloonMsgCommonQueueComponent} from "../../common/ng2-balloon-msg-common-queue.component";
-import {Ng2BalloonMsgService} from "../../services/ng2-balloon-msg.service";
+import {Ng2BalloonMsgCommonQueueComponent} from "@synerty/ng2-balloon-msg/ng2-balloon-msg/common/ng2-balloon-msg-common-queue.component";
+import {Ng2BalloonMsgService} from "@synerty/ng2-balloon-msg/ng2-balloon-msg/services/ng2-balloon-msg.service";
 
 
 @Component({
     selector: 'ng2-balloon-msg-ns',
-    templateUrl: './ng2-balloon-msg-ns-queue.component.html',
-    moduleId: module.id
+    templateUrl: './ng2-balloon-msg-ns-queue.component.html'
 })
 export class Ng2BalloonMsgNsQueueComponent extends Ng2BalloonMsgCommonQueueComponent {
 

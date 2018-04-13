@@ -1,6 +1,1 @@
-export {
-    Ng2BalloonMsgService,
-    UsrMsgLevel,
-    UsrMsgType,
-    UsrMsgParams
-} from "./ng2-balloon-msg/services/ng2-balloon-msg.service";
+export {Ng2BalloonMsgNsModule} from "./ng2-balloon-msg-ns/ng2-balloon-msg-ns.module";
