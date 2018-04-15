@@ -1,6 +1,6 @@
 import {Component, Output, EventEmitter} from "@angular/core";
-import {Ng2BalloonMsgCommonQueueComponent} from "@synerty/ng2-balloon-msg/ng2-balloon-msg/common/ng2-balloon-msg-common-queue.component";
-import {Ng2BalloonMsgService} from "@synerty/ng2-balloon-msg/ng2-balloon-msg/services/ng2-balloon-msg.service";
+import {Ng2BalloonMsgCommonQueueComponent} from "@synerty/ng2-balloon-msg";
+import {Ng2BalloonMsgService} from "@synerty/ng2-balloon-msg";
 
 
 @Component({
